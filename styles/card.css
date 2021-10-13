@@ -1,0 +1,62 @@
+.card {
+   overflow: hidden;
+   box-shadow: 0 2px 20px grey;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+
+   justify-content: center;
+   cursor: pointer;
+   transition: transform 200ms ease-in;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.card img {
+   height: 12rem;
+   width: 100%;
+   object-fit: cover;
+
+}
+
+.card :hover {
+   transform: scale(1.02);
+}
+
+.card:hover * {
+   transform: scale(1.02);
+
+}
+
+.card .recipe-title {
+   margin: 0px;
+   padding: 1rem;
+   font-family: inherit;
+}
+
+.card .recipe-description {
+   margin: -10px;
+   padding: 1rem;
+   font-family: inherit;
+}
+
+.card button {
+   padding: 1rem;
+   font-family: inherit;
+   font-weight: bold;
+   font-size: 1rem;
+   margin: 1rem;
+   border: 2px solid #B44647;
+   background: transparent;
+   color: #B44647;
+   border-radius: 5px;
+   transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+
+
+.card button:hover {
+   background: #B44647;
+   color: white;
+}

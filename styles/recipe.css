@@ -1,3 +1,13 @@
+body {
+   background-color: #2D2013;
+   font-family: Verdana,
+      Geneva,
+      Tahoma,
+      sans-serif;
+   color: #FFFFFF;
+}
+
+
 img {
    max-width: 100%;
    max-height: 100%;
