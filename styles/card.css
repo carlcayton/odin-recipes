@@ -4,14 +4,11 @@
    border-radius: 5px;
    display: flex;
    flex-direction: column;
-
    justify-content: center;
    cursor: pointer;
    transition: transform 200ms ease-in;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
 .card img {
    height: 12rem;
@@ -42,6 +39,7 @@
 }
 
 .card button {
+   cursor: pointer;
    padding: 1rem;
    font-family: inherit;
    font-weight: bold;
