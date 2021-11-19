@@ -1,0 +1,142 @@
+:root {
+   --bottom-shadow: -4px 5px 2px -2px rgba(0, 0, 0, .2);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#main-logo {
+   display: flex;
+}
+
+
+#text-logo {
+   color: #971D12;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+#img-logo {
+   max-height: 30px;
+   max-width: 30px;
+}
+
+
+#search-button {
+   max-height: 30px;
+   max-width: 30px;
+}
+
+nav {
+   background: #F6F6F6;
+   padding: 10px 40px 10px 70px;
+   box-shadow: var(--bottom-shadow);
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 7%;
+}
+
+#main-logo {
+   margin-right: 30px;
+}
+
+#text-logo {
+   display: inline;
+   margin-right: 5px;
+   font-size: 30px;
+   font-weight: 800;
+}
+
+#img-logo {
+   margin-top: 5px;
+
+}
+
+nav ul .search-bar {
+   height: 35px;
+   width: 360px;
+   display: flex;
+   box-shadow: var(--bottom-shadow);
+   border-radius: 5px;
+}
+
+nav ul .search-bar input {
+   height: 100%;
+   width: 90%;
+   border: none;
+   outline: none;
+   padding: 0 10px;
+   color: #8C8281;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+nav ul .search-bar span {
+   height: 100%;
+   width: 40px;
+   text-align: center;
+   line-height: 35px;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   background-color: #971D12;
+   color: #FFFFFF;
+   font-size: 23px;
+   font-weight: normal;
+}
+
+
+
+nav ul div.nav-links {
+   display: inline-flex;
+   padding: 0 25px
+}
+
+.nav-item::after {
+   content: '';
+   display: block;
+   margin: auto;
+   height: 3px;
+   width: 0px;
+   background: #FE9C03;
+   transition: all 0.2s linear;
+}
+
+.nav-item:hover::after {
+   width: 70%;
+}
+
+nav ul div.nav-links a {
+   text-decoration: none;
+   color: #EC5451;
+   font-weight: bold;
+   /* margin-left: 10px; */
+   font-size: 18px;
+   padding: 0px 15px;
+}
+
+@media (max-width: 1280px) {
+   nav ul .search-bar {
+      width: 300px;
+   }
+}
+
+@media screen and (max-width: 1110px) {
+   nav {
+      padding: 10px 40px 10px 0px;
+   }
+
+
+   #main-logo {
+      display: none;
+   }
+}
