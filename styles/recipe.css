@@ -1,10 +1,9 @@
 body {
-   background-color: #2D2013;
+   background-color: #FFFFFF;
    font-family: Verdana,
       Geneva,
       Tahoma,
       sans-serif;
-   color: #FFFFFF;
 }
 
 
@@ -80,7 +79,7 @@ img {
 .glyph-hr {
    padding: 0;
    border: none;
-   border-top: medium double #FFFFFF;
+   border-top: medium double black;
    color: inherit;
    text-align: center;
    opacity: 50%;
@@ -94,7 +93,7 @@ img {
    top: -0.7em;
    font-size: 1.5em;
    padding: 0 0.25em;
-   background: #2D2013;
+   background: #FFFFFF;
 }
 
 /* Credits to Tomas Theunissen */
@@ -104,7 +103,7 @@ img {
    overflow: visible;
    height: 30px;
    border-style: solid;
-   border-color: #FFFFFF;
+   border-color: black;
    border-width: 1px 0 0 0;
    border-radius: 20px;
 }
@@ -115,7 +114,7 @@ img {
    height: 30px;
    margin-top: -31px;
    border-style: solid;
-   border-color: #FFFFFF;
+   border-color: black;
    border-width: 0 0 1px 0;
    border-radius: 20px;
 }
