@@ -12,24 +12,33 @@
 
 <body>
    <nav>
-      <ul>
-         <li id="main-logo">
-            <span id="text-logo">Freecipes
-            </span>
-            <img src="../assets/images/carrot_logo.svg" alt="" id="img-logo" />
-         </li>
+      <div id="main-logo">
+         <span id="text-logo">Freecipes
+         </span>
+         <img src="../assets/images/carrot_logo.svg" alt="" id="img-logo" />
+      </div>
 
-         <li class="search-bar">
-            <input type="search" placeholder="Find a Recipe">
-            <span class="fa fa-search" id="search-icon-button"></span>
-         </li>
+      <div class="search-bar">
+         <input type="search" placeholder="Find a Recipe">
+         <span class="fa fa-search" id="search-icon-button"></span>
+      </div>
 
-         <div class="nav-links">
+      <a href="#" class="toggle-button">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+      </a>
+
+      <div class="nav-links">
+         <ul>
             <li class="nav-item"><a href="#">Home</a></li>
             <li class="nav-item"><a href="#">Recipe</a></li>
             <li class="nav-item"><a href="#">About</a></li>
-         </div>
+         </ul>
+      </div>
    </nav>
+
+   <script src="../src/index.js"></script>
 </body>
 
 </html>
